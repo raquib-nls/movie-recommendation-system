@@ -1,0 +1,22 @@
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+cleaned_movie_df.pkl
+siml_matrix.pkl
+count_Vector_cv.pkl
