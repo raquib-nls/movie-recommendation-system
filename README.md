@@ -30,7 +30,7 @@ This project implements a movie recommendation engine using cosine similarity an
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone <[repo-url](https://github.com/raquib-nls/movie-recommendation-system.git)>
 cd movie-recommendation-system
 ```
 
@@ -180,3 +180,4 @@ Mohd Raquib Hussain
 ---
 
 **Note**: Make sure to download the datasets from Kaggle before running the training notebook. The pickle files will be automatically downloaded when you run the app for the first time.
+
