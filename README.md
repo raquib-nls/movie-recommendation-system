@@ -165,7 +165,7 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
@@ -180,5 +180,6 @@ Mohd Raquib Hussain
 ---
 
 **Note**: Make sure to download the datasets from Kaggle before running the training notebook. The pickle files will be automatically downloaded when you run the app for the first time.
+
 
 
