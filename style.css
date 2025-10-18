@@ -1,5 +1,37 @@
+   html, body, .stApp, .main, .block-container {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+   
+[data-testid="stSidebar"], .css-1d391kg, .css-1lcbmhc {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+.streamlit-expanderHeader, .streamlit-expanderContent, [data-testid="stExpander"], div[data-testid="stExpander"] {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    border-radius: 10px !important;
+}
+
+.st-emotion-cache-1lsfsc6{
+    background-color: #333333 !important;
+}
+
+.st-emotion-cache-3qzj0x p {
+    word-break: break-word;
+    margin: 0px;
+    color: white;
+}
+   
+.st-emotion-cache-3uj0rx hr:not([size]) {
+    height: 1px;
+    background-color: white;
+    margin-top: -1px;
+    margin-bottom: 1px;
+}
    .movie-card {
-        
+        background-color: #121212d9;
         border-radius: 15px;
         padding: 15px;
         text-align: center;
@@ -67,3 +99,116 @@
     }
 
 
+header, [data-testid="stHeader"], .css-18ni7ap, .css-1v0mbdj {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+footer, .css-164nlkn, [data-testid="stFooter"], #MainMenu {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    visibility: hidden !important;
+}
+
+
+
+
+
+div[data-baseweb="input"] > div,
+div[data-baseweb="select"] > div {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+}
+
+/* Input text color */
+input, textarea {
+    color: #ffffff !important;
+    background-color: #000000 !important;
+    cursor: pointer !important;
+}
+
+/* Placeholder text */
+input::placeholder, textarea::placeholder {
+    color: #aaaaaa !important;
+}
+
+/* Input focus state */
+input:focus, textarea:focus {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-color: #e50914 !important;
+    outline: none !important;
+}
+
+/* Select/Dropdown styling */
+[data-baseweb="select"] {
+    background-color: #000000 !important;
+    cursor: pointer !important;
+}
+
+[data-baseweb="select"] * {
+    color: #ffffff !important;
+    cursor: pointer !important;
+}
+
+/* Dropdown menu */
+[data-baseweb="popover"] {
+    background-color: #000000 !important;
+}
+
+[role="listbox"] {
+    background-color: #000000 !important;
+}
+
+[role="option"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+}
+
+[role="option"]:hover {
+    background-color: #1a1a1a !important;
+    color: #e50914 !important;
+}
+
+/* 🖱️ SCROLLBAR - BLACK WITH WHITE THUMB */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff !important;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e50914 !important;
+    cursor: pointer !important;
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff #000000;
+}
+
+/* 🌀 SPINNER */
+[data-testid="stSpinner"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stSpinner"] > div > div {
+    color: #ffffff !important;
+}

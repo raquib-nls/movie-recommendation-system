@@ -30,7 +30,7 @@ download_if_missing("https://drive.google.com/uc?id=1m6fCzyvM3IcD-ieFYBZoND6UBnZ
 download_if_missing("https://drive.google.com/uc?id=1Faq17OXipnG1rEVJcOlvG7j_-WEn9Yns", "siml_matrix.pkl")
 
 
-with open('style.css') as f:
+with open('style.css','r',encoding='utf-8') as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 @st.cache_resource
@@ -168,6 +168,7 @@ def create_movie_card(movie, idx):
                 st.markdown(f"**👥 Cast:** {movie['cast']}")
                 st.markdown("**📖 Overview:**")
                 st.write(movie['overview'])
+                
 
 
 col1, col2, col3 = st.columns([1, 2, 1])
